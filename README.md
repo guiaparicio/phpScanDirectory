@@ -6,3 +6,25 @@ PHP script that scans all files in a directory, identifying if there are chunks 
 # Example of use: 
 Search for files that contain malicious code chunks after a JS injection attack on your WordPress website
 
+# Config
+
+Before running the scan.php file, properly configure the variables existing at the beginning of the file.
+
+```php
+
+
+// Enter the directory to be scanned here Ex: /home/myuser/var/www/html/
+$dir = "/YOUR DIRECTORY HERE/"; 
+
+// Include the code to be searched for in this file
+$code = file_get_contents("code.txt");
+
+// Set true if you want to remove the code when found
+$removeCode = false; 
+
+// Set types of files that will be searched
+$searchExtensions = ["js","php","txt"];
+
+
+```
+
