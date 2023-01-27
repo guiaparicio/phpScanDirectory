@@ -6,6 +6,14 @@ PHP script that scans all files in a directory, identifying if there are chunks 
 # Example of use: 
 Search for files that contain malicious code chunks after a JS injection attack on your WordPress website
 
+# Requeriments
+
+```text
+
+PHP7+
+
+```
+
 # Config
 
 Before running the scan.php file, properly configure the variables existing at the beginning of the file.
