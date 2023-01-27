@@ -1,9 +1,9 @@
 <?php
 
     /* CONFIGS */
-    $dir        = "/YOUR DIRECTORY HERE/"; // Enter the directory to be scanned here Ex: /home/myuser/var/www/html/
-    $code       = file_get_contents("code.txt"); // Include the code to be searched for in this file
-    $removeCode = false; // Set true if you want to remove the code when found
+    $dir              = "/YOUR DIRECTORY HERE/"; // Enter the directory to be scanned here Ex: /home/myuser/var/www/html/
+    $code             = file_get_contents("code.txt"); // Include the code to be searched for in this file
+    $removeCode       = false; // Set true if you want to remove the code when found
     $searchExtensions = ["js","php","txt"]; // Set types of files that will be searched
 
     echo "<body style='background-color:black; color: #00ff2a;'>";
