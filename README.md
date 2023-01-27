@@ -1,5 +1,5 @@
 # What does this script do?
-PHP script that scans all files in a directory, identifying if there are chunks of text/code in each file, and capable of replacing or removing them.
+PHP script that scans all files in a directory, identifying if there are chunks of text/code in each file, and can remove it if necessary.
 
 ![alt text](https://i.ibb.co/QcGYPY8/Screenshot-from-2023-01-27-14-06-44.png)
 
