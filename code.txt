@@ -1,1 +1,4 @@
-code to search here
+code to search here!
+
+git config --global user.name "guiaparicio"
+git config --global user.email "guiaparicio@gmail.com"
